@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Photo Feed Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex " style="width: 84% ; text-align: center; align-items: center;" href="#"><i class="fa-brands fa-instagram fa-xl me-2"></i> Instagram</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+           
+            <button type="button" class="btn btn-primary bg-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create a new post
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <span>Caption:
+
+                    </span>
+                    <div class="input-group mt-2">
+                      <textarea class="form-control" placeholder="Add the caption of your post here" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="d-flex mt-2">
+                      <button type="button" style="border-color:rgba(223, 221, 221, 0.648); border-radius: 5px;"><i class="fa-solid fa-camera"></i></button>
+                      <button type="button" class="ms-2" style="border-color:rgb(223, 221, 221); border-radius: 5px;"><i class="fa-solid fa-location-dot"></i></i></button>
+                      
+
+
+                    </div>
+
+                  
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary bg-success">Publish</button>
+                  </div>
+                </div>
+              </div>
+            </div>   
+          <li class="nav-item dropdown bg-info rounded">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" style="color: red;">Log Out</a></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <ul class="nav nav-tabs justify-content-center border-0"  id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active border-0" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+      
+        <div class="row ms-2 mt-2" style="width: 99%; --bs-gutter-x: 0.5rem;">
+          <div class="col-6 col-md-4">
+            
+              <img src="https://images4.alphacoders.com/936/936378.jpg" class="card-img-top" alt="...">
+                  
+              
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="">
+              <img src="https://wallpaperaccess.com/full/249921.jpg" class="card-img-top" alt="...">
+              </div>
+          </div>
+          <div class="col-6 col-md-4">
+            
+              <img src="https://p4.wallpaperbetter.com/wallpaper/36/585/88/forest-4k-background-for-pc-wallpaper-preview.jpg" class="card-img-top" alt="...">
+              </div>
+          
+      </div>
+      <div class="row mt-2 ms-2" style="width: 99%; --bs-gutter-x: 0.5rem;">
+        <div class="col-6 col-md-4">
+        
+            <img src="https://images5.alphacoders.com/958/thumb-1920-958580.jpg" class="card-img-top" alt="...">
+                
+            
+        </div>
+        <div class="col-6 col-md-4">
+
+            <img src="https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1609948707671-Y2R9FNDIOWSIST76ADQ7/7.jpg" class="card-img-top" alt="...">
+                
+            
+        </div>
+        <div class="col-6 col-md-4">
+            <img src="https://uploads-ssl.webflow.com/6212e72bb840050c246ea51b/622dbb87b588c89c599161c8_derive-tokyo-cody-ellingham.jpeg" class="card-img-top" alt="...">
+                
+            
+        </div>
+      </div>
+      <div class="row mt-2 ms-2" style="width:99%; --bs-gutter-x: 0.5rem;">
+        <div class="col-6 col-md-4">
+      
+            <img src="https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg" class="card-img-top" alt="...">
+                
+          
+        </div>
+        <div class="col-6 col-md-4">
+        
+            <img src="https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg" class="card-img-top" alt="...">
+                
+          
+        </div>
+        <div class="col-6 col-md-4">
+        
+            <img src="https://images8.alphacoders.com/712/712496.jpg" class="card-img-top" alt="...">
+                
+          
+        </div>
+      </div>
+    </div>
+  
+
+      </div>
+      <div class="tab-pane fade border-0" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="container">
+          <div class="row justify-content-md-center">
+              <div class="col-md-8 mx-auto pt-3">
+                  <div class="card">
+                      <div class="card-header bg-white d-flex justify-content-between">
+                          <h4>Galaxy</h4>
+                          <span class="text-muted">12/16</span>
+                      </div>
+                      <img class="card-img-top"
+                          src="https://images4.alphacoders.com/936/936378.jpg"
+                          alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title text-dark">1997 Likes</h5>
+                          <p class="card-text">Enjoy the view</p>
+    
+                      </div>
+                  </div>
+
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Neon Art</h4>
+                        <span class="text-muted">11/24</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">2022 Likes</h5>
+                        <p class="card-text">Pink and blue</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Dragon 4k</h4>
+                        <span class="text-muted">10/23</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://images5.alphacoders.com/958/thumb-1920-958580.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">3204 Likes</h5>
+                        <p class="card-text">Beautiful Dragon</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Tiger</h4>
+                        <span class="text-muted">10/12</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://images8.alphacoders.com/712/712496.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">4950 Likes</h5>
+                        <p class="card-text">Black and White</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Wonderful View</h4>
+                        <span class="text-muted">9/15</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1609948707671-Y2R9FNDIOWSIST76ADQ7/7.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">932 Likes</h5>
+                        <p class="card-text">Shiny Sky</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Good Night Tokyo</h4>
+                        <span class="text-muted">7/2</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://uploads-ssl.webflow.com/6212e72bb840050c246ea51b/622dbb87b588c89c599161c8_derive-tokyo-cody-ellingham.jpeg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">5403 Likes</h5>
+                        <p class="card-text">Tokyo Rain</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Albert Einstein Grafitti</h4>
+                        <span class="text-muted">6/20</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://wallpaperaccess.com/full/249921.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">530 Likes</h5>
+                        <p class="card-text">Grafitti Wall</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Lonely Art</h4>
+                        <span class="text-muted">3/21</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://p4.wallpaperbetter.com/wallpaper/36/585/88/forest-4k-background-for-pc-wallpaper-preview.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">6439 Likes</h5>
+                        <p class="card-text">Sakura Tree 4K</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col-md-8 mx-auto pt-3">
+                <div class="card">
+                    <div class="card-header bg-white d-flex justify-content-between">
+                        <h4>Dark Forest</h4>
+                        <span class="text-muted">1/4</span>
+                    </div>
+                    <img class="card-img-top"
+                        src="https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">1310 Likes</h5>
+                        <p class="card-text">Beautiful Forest</p>
+  
+                    </div>
+                </div>
+                
+              </div>
+      </div>
+  
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/867a22a3f3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
